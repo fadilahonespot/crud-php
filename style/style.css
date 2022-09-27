@@ -1,0 +1,222 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 15px;
+  font-family: verdana;
+  background-image: url("img/sample-pattern.png");
+}
+header {
+  float: left;
+  width: 80%;
+}
+header a {
+  text-decoration: none;
+  padding-left: 20px;
+  font-size: 30px;
+}
+nav {
+  background: white;
+  width: 100%;
+  height: 70px;
+  margin-bottom: 20px;
+  position: fixed;
+  top: 0;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  line-height: 72px;
+}
+nav ul li a {
+  float: left;
+  width: 70px;
+  text-align: center;
+  color: blue;
+  text-decoration: none;
+  font-size: 18px;
+}
+nav ul li a:hover {
+  background-color: #2e9ea2;
+  display: block;
+}
+section {
+  clear: left;
+}
+section a {
+  text-decoration: none;
+}
+header img {
+  height: 40px;
+  width: 210;
+  margin-top: 13px;
+}
+.login {
+  background-color: white;
+  width: 360px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.pendaftaran {
+  background-color: white;
+  width: 640px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 38px;
+  text-align: center;
+  margin-top: 86px;
+  margin-bottom: 35px;
+}
+.red {
+  background-color: rgb(250, 90, 90);
+}
+.green {
+  background-color: rgb(19, 204, 19);
+}
+.whitesmoke {
+  background-color: whitesmoke;
+}
+.box-dasboard {
+  margin-bottom: 10px;
+}
+.width-dasboard {
+  width: 93%;
+}
+.text-white {
+  color: white;
+}
+h4 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+}
+p {
+  padding: 12px;
+}
+input {
+  width: 100%;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  border-radius: 18px;
+  color: white;
+}
+input[type="reset"] {
+  border-radius: 18px;
+  color: black;
+}
+input[type="checkbox"] {
+  width: fit-content;
+  text-align: left;
+  margin-left: 6px;
+}
+input[type="radio"] {
+  width: fit-content;
+  text-align: left;
+  margin-left: 6px;
+}
+textarea {
+  width: 97%;
+  height: 120px;
+  font-size: 16px;
+  padding: 8px;
+}
+.lahiran {
+  width: 49%;
+  display: inline;
+}
+.title {
+  padding: 5px;
+  margin: 10px;
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 23%;
+  padding: 16px;
+  background-color: whitesmoke;
+}
+
+/* Middle column */
+.column.middle {
+  width: 72%;
+  padding: 10px;
+  align-items: center;
+}
+
+.row {
+  background-color: white;
+  width: 94%;
+  margin: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 25px;
+  background-color: rgb(66, 58, 58);
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
